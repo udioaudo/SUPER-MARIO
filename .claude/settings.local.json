@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pip --version)",
+      "Bash(python -m pip install pygame numpy mypy ruff pytest)",
+      "Bash(python *)",
+      "Read(//c/Users/Lenovo/AppData/Local/Programs/**)",
+      "Bash(find /E -maxdepth 3 -name \"python.exe\" -type f)",
+      "Bash(python3.12 -m pytest tests/test_ram.py -v)"
+    ]
+  }
+}
